@@ -3,7 +3,7 @@
 
 # Modelo para predicción
 
-Graphic User Interface (GUI) supported by `Tkinter` running a simple python program for micrographs /cell image vision detection, classification and annotation of cell types (Proembryos derived from Somatic Embryogenesis)
+Graphic User Interface (GUI) supported by `Tkinter` running a simple python program for micrographs /cell image vision detection, classification and annotation of cell types (_Brassica napus_ and _H. vulgare_ Proembryos derived from Somatic Embryogenesis)
 
 - **Input** : 
  1) Folder path with subfolders up to 3 levels (Filenames without hyphens "-")
@@ -95,5 +95,6 @@ call "C:\Users\{your_username}\miniconda3\Scripts\activate.bat"
 |---|---|
 | `models`  | Folder with Pickle models to load in the program for prediction of proembryos |
 | `CONTEO_Microspora_Proembrion_cebada_y_colza.py`  | python script with functionality to train your own unsupervised model using a file path with pictures/ predict using model example .pkl file in `/models` | 
+
 
 
