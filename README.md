@@ -77,7 +77,7 @@ conda install --file requirements.txt
 If Linux is used, open terminal and type
 
 ```
-python3 `path_to\CONTEO_Microspora_Proembrión`
+python3 `path_to\CONTEO_Microspora_Proembrion_cebada_y_colza.py`
 
 ```
 If Windows is used, you can create a batch file that will execute the program without upon opening the windows CMD terminal, with these contents.(save as .bat) - Functions if installed for a single user
@@ -85,7 +85,7 @@ If Windows is used, you can create a batch file that will execute the program wi
 ```
 @echo on
 call "C:\Users\{your_username}\miniconda3\Scripts\activate.bat"
-"C:\Users\{your_username}\miniconda3\python.exe" "path_to\CONTEO_Microspora_Proembrion.py"
+"C:\Users\{your_username}\miniconda3\python.exe" "path_to\CONTEO_Microspora_Proembrion_cebada_y_colza.py"
 
 ```
 
@@ -94,5 +94,6 @@ call "C:\Users\{your_username}\miniconda3\Scripts\activate.bat"
 | `File/Folder` | `Description`  |
 |---|---|
 | `models`  | Folder with Pickle models to load in the program for prediction of proembryos |
-| `CONTEO_Microspora_Proembrion.py`  | python script with functionality to train your own unsupervised model using a file path with pictures/ predict using model example .pkl file in `/models` | 
+| `CONTEO_Microspora_Proembrion_cebada_y_colza.py`  | python script with functionality to train your own unsupervised model using a file path with pictures/ predict using model example .pkl file in `/models` | 
+
 
